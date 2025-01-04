@@ -22,8 +22,8 @@ This project implements a conversational chatbot using the Ollama Llama 3.2 mode
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/conversational-chatbot.git
-    cd conversational-chatbot
+    git clone https://github.com/SohamNale/Conversational_Chatbot_Using_Llama3.2.git
+    cd Conversational_Chatbot_Using_Llama3.2
     ```
 
 2. Install the required packages:

@@ -37,7 +37,7 @@ def llama_chat(audio_file, history=[]):
     history.append((user_message, None))  # Placeholder for assistant reply
 
     # Create the prompt with conversation history
-    prompt = "You are a coding assistant. Provide detailed, step-by-step guidance for writing code, troubleshooting errors, and solving coding-related queries.\n\n"
+    prompt = "You are a friendly conversational chatbot. You help user with any queries or question. Give short and appropriate answer to user needs no need for lengthy responses.\n\n"
     for user_msg, assistant_msg in history:
         prompt += f"User: {user_msg}\n"
         if assistant_msg:
